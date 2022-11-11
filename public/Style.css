@@ -1,0 +1,33 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Main-Font {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Background {
+    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0);
+
+    color: white;
+    font-weight: bold;
+
+    border: 2px solid #f1f1f1;
+    position: absolute;
+
+    width: 200px;
+    height: 300px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
