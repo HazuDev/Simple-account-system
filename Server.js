@@ -19,7 +19,7 @@ app.post("/SendInformation", (req, res) => {
 
     jsonContent = JSON.stringify(myObj)
 
-    fs.writeFile("Data.json", jsonContent, "utf-8", (err) => {
+    fs.writeFile("src/Data.json", jsonContent, "utf-8", (err) => {
         if(err) {
             console.log("Error trying to save information\n")
             res.sendStatus(400)
